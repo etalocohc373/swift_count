@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var stepper: UIStepper!
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         stepper.stepValue = 0.1;
